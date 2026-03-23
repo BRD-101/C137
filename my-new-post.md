@@ -1,1 +1,1 @@
-AI and Emerging Technologies.
+My next post will be about AI and Emerging Technologies.
