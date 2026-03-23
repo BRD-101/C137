@@ -18,5 +18,5 @@ project_entries:
     desc: This is an example project, template 2
     
   - title: My New Post
-    url: my-new-posttemplate-2-post
+    url: my-new-post
     desc: This is my new post 
