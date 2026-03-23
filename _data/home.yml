@@ -16,3 +16,7 @@ project_entries:
   - title: Template 2
     url: template-2-post
     desc: This is an example project, template 2
+
+ - title: My New Post 
+    url: my-new-post
+    desc: Hello from the otherside 
