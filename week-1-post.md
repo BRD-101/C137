@@ -57,5 +57,5 @@ well represented in historical data.
 
 Some platforms also incorporate **Natural Language Processing (NLP)** to mine
 unstructured data sources such as pilot squawks, maintenance logbook entries, and
-technical dispatch reports — extracting failure signals from free-text records that
+technical dispatch reports, extracting failure signals from free-text records that
 would otherwise be invisible to numeric models alone.
