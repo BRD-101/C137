@@ -1,82 +1,51 @@
-## [Learning Portfoilio Tutorial Videos](https://video.cscc.edu/channel/channelid/295074652) 
-
-## Markdown Text Cheat Sheet
-Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus.
-
-# Sample heading 1
-## Sample heading 2
-### Simple heading 3
-#### Sample heading 4
-##### Sample heading 5
-###### Sample heading 6
-
-Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod.
-
-## Lists
-
-Unordered:
-
-- Fusce non velit cursus ligula mattis convallis vel at metus[^2].
-- Sed pharetra tellus massa, non elementum eros vulputate non.
-- Suspendisse potenti.
-
-Ordered:
-
-1. Quisque arcu felis, laoreet vel accumsan sit amet, fermentum at nunc.
-2. Sed massa quam, auctor in eros quis, porttitor tincidunt orci.
-3. Nulla convallis id sapien ornare viverra.
-4. Nam a est eget ligula pellentesque posuere.
-
-## Blockquote
-
-The following is a blockquote:
-
-> Suspendisse tempus dolor nec risus sodales posuere. Proin dui dui, mollis a consectetur molestie, lobortis vitae tellus.
-
-## Thematic breaks (<hr>)
-
-Mauris viverra dictum ultricies[^3]. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. **You can put some text inside the horizontal rule like so.**
-
----
-{: data-content="hr with text"}
-
-Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. **Or you can just have an clean horizontal rule.**
+**Student:** Brian Dillion  
+**Course:** WIIT-7810 - Introduction to Artificial Intelligence  
+**Institution:** Columbus State Community College  
+**Date:** March 2026
 
 ---
 
-Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. Or you can just have an clean horizontal rule.
+## The Seven Steps of Machine Learning
 
-## Code
+Machine learning follows a seven-step process to turn raw data into useful predictions. Two of the most critical steps are:
 
-Now some code:
+**Step 1: Data Collection**
 
-```
-const ultimateTruth = 'follow middlepath';
-console.log(ultimateTruth);
-```
+The system needs raw material to learn from. In aviation terms, this is every sensor reading, maintenance log, and flight record from your fleet. Quality matters. Poor data produces unreliable results. Autonomous data links to the aircraft systems allow this data in a standard format with no human error, as was the case prior to the availability of digital data.    
 
-And here is some `inline code`!
+**Step 4: Training**
 
-## Tables
+The algorithm processes the collected data, identifies patterns, and adjusts itself repeatedly until its accuracy reaches an acceptable level. Think of it as the system reviewing thousands of past engine failures to learn which sensor readings preceded each event. the system can recognize those patterns in real time going forward. The inclusion of sensors in component designs in the current generation of aircraft allows for the monitoring of vast number of components on the aircaft such as hydraulic pumps and actuators, and valve motor health.   
 
-Now a table:
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-## Images
-
-![theme logo](http://www.abhinavsaxena.com/images/abhinav.jpeg)
-
-This is an image[^4]
+> Source: WIIT-7810 Course Slides, Machine Learning Part 1, Columbus State Community College
 
 ---
-{: data-content="footnotes"}
 
-[^1]: this is a footnote. You should reach here if you click on the corresponding superscript number.
-[^2]: hey there, don't forget to read all the footnotes!
-[^3]: this is another footnote.
-[^4]: this is a very very long footnote to test if a very very long footnote brings some problems or not; hope that there are no problems but you know sometimes problems arise from nowhere.
+## Machine Learning Application: Predictive Maintenance in Commercial Aviation
+
+Traditional aviation maintenance follows fixed time or cycle based intervals, "HARD TIME". The component reaches the prescribed limit and it is a "hard stop" for that component. Conservative by design but costly and inefficient. Machine learning replaces this with condition-based intervention driven by live sensor data.
+
+Delta TechOps' APEX (Advanced Predictive Engine) system demonstrates the impact at scale. With a success rate of over 95% for pending failure predictions, the results are measurable:
+
+| Year | Maintenance-Related Cancellations |
+|------|----------------------------------|
+| 2010 | 5,600+ |
+| 2018 | 55 |
+
+This application is actively deployed across the industry. Air France-KLM partnered with Google Cloud in December 2024, reducing data analysis time for predictive maintenance from hours to minutes.
+
+---
+
+## Ethical Concern
+
+Accountability is unresolved. When an ML model recommends deferring a maintenance action and a failure follows, liability is unclear, was it the algorithm, the data, the operator, or the MRO provider? FAA and EASA regulations were not designed for algorithmic decision-making and are slow to change. This gap remains open. Incorporating AI into aviation requires collaboration with regulatory bodies to align these applications with existing safety frameworks and also drive for regulatory change to include this evolution of mainteance philosphy.
+
+---
+
+## References
+
+1. Delta TechOps. (2019). *Delta TechOps expanding predictive maintenance capabilities with new Airbus partnership.* https://deltatechops.com/delta-techops-expanding-predictive-maintenance-capabilities-with-new-airbus-partnership/
+2. Acumen Aviation. (2024). *The role of AI in aircraft maintenance.* https://www.acumen.aero/blogs/the-role-of-ai-and-predictive-analytics-in-aircraft-maintenance
+3. WIIT-7810 Course Slides. (2025). *Machine Learning Part 1.* Columbus State Community College.
+
+---
