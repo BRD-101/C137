@@ -1,5 +1,5 @@
 **Student:** Brian Dillion  
-**Course:** WIIT-7810 - Introduction to Artificial Intelligence  
+**Course:** Introduction to Artificial Intelligence (WIIT-7810)  
 **Institution:** Columbus State Community College  
 **Date:** March 2026
 
