@@ -13,10 +13,10 @@ project_entries:
     url: template-1-post
     desc: This is an example project, template 1
 
-  - title: Template 2
-    url: template-2-post
-    desc: This is an example project, template 2
-    
   - title: AI and Emerging Technologies
     url: week-1-post
+    desc: My thoughts
+    
+ - title: Machine Learning Research 
+    url: week-2-post
     desc: My thoughts
