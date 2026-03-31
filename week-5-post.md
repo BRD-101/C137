@@ -1,11 +1,12 @@
-**Student:** Brian Dillion
-**Course:** Intro Artificial Intelligence (11122)
-**Institution:** Columbus State Community College
+
+*Student:** Brian Dillion  
+**Course:** Intro Artificial Intelligence (11122)  
+**Institution:** Columbus State Community College  
 **Date:** March 2026
 
 ---
 
-## Large Language Model Interaction: The Art of War
+## LLM
 
 ---
 
