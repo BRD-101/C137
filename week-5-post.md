@@ -54,10 +54,10 @@ significant portions of the text.
 I asked the LLM to identify the key figures referenced. The response
 correctly identified:
 
-- Sun Tzu (Sun Wu) — author and general
-- King Ho-lu of Wu — the ruler Sun Tzu served
-- Wu Tzu-hsu — the official who recommended Sun Tzu to the King
-- Lionel Giles — the 1910 translator whose edition is the Gutenberg source
+- Sun Tzu (Sun Wu) - Author and general
+- King Ho-lu of Wu - The ruler Sun Tzu served
+- Wu Tzu-hsu - The official who recommended Sun Tzu to the King
+- Lionel Giles - The 1910 translator whose edition is the Gutenberg source
 
 The LLM was less reliable on the historical Chinese commentators whose
 annotations appear throughout the Giles edition, suggesting the model
@@ -95,13 +95,13 @@ human military historian would have been more direct about the intent.
 
 The LLM demonstrated three consistent patterns across all interactions:
 
-1. **Accuracy on well-known content** — passages and principles that
-appear frequently in popular culture were reproduced reliably
-2. **Surface-level synthesis** — without specific prompting, responses
-favored breadth over analytical depth
-3. **Domain gap** — the LLM required domain-specific prompting to connect
+1. **Accuracy on well-known content** - Passages and principles that
+appear frequently in popular culture were reproduced reliably.
+2. **Surface-level synthesis** - Without specific prompting, responses
+seemed to favor breadth over analytical depth
+3. **Domain gap** - the LLM required domain-specific prompting to connect
 strategic principles to operational contexts; a subject matter expert
-would have made those connections without prompting
+would have made those connections without prompting.
 
 Reading *The Art of War* through the lens of an LLM revealed an
 additional and telling gap. The model accurately reproduced the
